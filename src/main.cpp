@@ -1,12 +1,12 @@
-#include "extern/codegen/include/GlobalNamespace/GameplayModifiers.hpp"
-#include "extern/codegen/include/GlobalNamespace/StandardLevelScenesTransitionSetupDataSO.hpp"
+#include "codegen/include/GlobalNamespace/GameplayModifiers.hpp"
+#include "codegen/include/GlobalNamespace/StandardLevelScenesTransitionSetupDataSO.hpp"
 
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/logging.hpp"
-#include "extern/modloader/shared/modloader.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-functions.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp" 
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/logging.hpp"
+#include "modloader/shared/modloader.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-functions.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp" 
+#include "beatsaber-hook/shared/utils/typedefs.h"
 
 #include "UnityEngine/SceneManagement/Scene.hpp"
 #include "UnityEngine/Vector3.hpp"
@@ -15,16 +15,16 @@
 #include "UnityEngine/Quaternion.hpp"
 #include "UnityEngine/Object.hpp"
 
-#include "extern/bs-utils/shared/utils.hpp"
+#include "bs-utils/shared/utils.hpp"
 
 #include "include/main.hpp"
 #include "include/config.hpp"
 #include "include/SettingsViewController.hpp"
 
-#include "extern/beatsaber-hook/shared/utils/hooking.hpp"
-#include "extern/custom-types/shared/register.hpp"
-#include "extern/questui/shared/QuestUI.hpp"
-#include "extern/questui/shared/BeatSaberUI.hpp"
+#include "beatsaber-hook/shared/utils/hooking.hpp"
+#include "custom-types/shared/register.hpp"
+#include "questui/shared/QuestUI.hpp"
+#include "questui/shared/BeatSaberUI.hpp"
 
 
 using namespace GlobalNamespace;
