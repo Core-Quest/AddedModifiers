@@ -3,15 +3,15 @@
     "_QPVersion": "0.1.1",
     "name": "Added Modifiers",
     "id": "AddedModifiers",
-    "author": "Inferno._.",
-    "version": "2.0.7",
+    "author": "Core and Inferno._.",
+    "version": "2.0.9",
     "packageId": "com.beatgames.beatsaber",
-    "packageVersion": "1.16.4",
-    "description": "A small mod that enables various unused modifiers",
+    "packageVersion": "1.17.1",
+    "description": "Adds additional modifiers to your game",
     "modFiles": [
         "libAddedModifiers.so"
     ],
     "libraryFiles": [
-        "libbeatsaber-hook_2_2_4.so"
+        "libbeatsaber-hook_2_3_1.so"
     ]
 }
