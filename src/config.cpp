@@ -1,5 +1,3 @@
-//MASSIVE thank you to red and everyone in #quest-mod-dev for helping me through the ui
-
 #include "config.hpp" 
 #include "main.hpp"
 
